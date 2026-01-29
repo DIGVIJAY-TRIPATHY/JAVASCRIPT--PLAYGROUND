@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="display: flex; align-items:center; justify-content:center; width:100%; height:100%; margin-top:20rem; gap:2rem; ">
+    
+    <button id="Orange" style="background-color: orange;">Orange</button>
+    <button id="Green" style="background-color: green;">Green</button>
+</body>
+
+<script>
+    function clickhandler(color){
+        return function(){
+            document.body.style.backgroundColor = `${color}`;
+        }
+    }
+
+    document.getElementById('Orange').onclick=clickhandler('orange');
+    document.getElementById('Green').onclick=clickhandler('Green');
+</script>
+</html>
