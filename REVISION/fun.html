@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="myfunn" onclick="myfun()">black</button>
+    <button onclick="myfun2()">yellow</button>
+    
+</body>
+<script>
+    function myfun(){
+        document.body.style.backgroundColor = "black";
+        document.getElementById('myfunn').innerHTML="black changed"
+    }
+    function myfun2(){
+        document.body.style.backgroundColor = "yellow";
+    }
+</script>
+</html>
