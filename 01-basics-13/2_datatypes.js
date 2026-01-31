@@ -51,7 +51,7 @@ console.log(typeof person);
 // 1. primitive datatypes ------>
     // 7 types: string, number, boolean, null, undefined, bigint, symbol
 
-// 2. reference datatypes------->
+// 2. reference datatypes / Non primitive datatypes------->
     // objects, arrays, functions
     // objects are key value pairs
     // arrays are ordered list of values
