@@ -26,3 +26,7 @@ const o = 50
 p = 60
 
 console.table([m , n , o , p])
+
+
+let mn = "John" + " " + "Doe";
+console.log(mn);
